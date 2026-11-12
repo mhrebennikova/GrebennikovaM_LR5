@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Підготувати звіт з лабораторної роботи",
+    "isComplete": false,
+    "dueDate": "2026-12-05",
+    "priority": 3
+  },
+  {
+    "name": "Здати курсову роботу",
+    "isComplete": false,
+    "dueDate": "2027-01-09",
+    "priority": 1
+  },
+  {
+    "name": "Повторити теорію з баз даних",
+    "isComplete": false,
+    "dueDate": "2027-01-01",
+    "priority": 2
+  },
+  {
+    "name": "Оновити резюме",
+    "isComplete": false,
+    "dueDate": "2026-11-09",
+    "priority": 1
+  },
+  {
+    "name": "Купити продукти на тиждень",
+    "isComplete": false,
+    "dueDate": "2026-12-20",
+    "priority": 4
+  },
+  {
+    "name": "Оплатити комунальні послуги",
+    "isComplete": false,
+    "dueDate": "2026-12-04",
+    "priority": 4
+  },
+  {
+    "name": "Записатися до стоматолога",
+    "isComplete": false,
+    "dueDate": "2027-01-11",
+    "priority": 1
+  },
+  {
+    "name": "Прочитати розділ з C#",
+    "isComplete": false,
+    "dueDate": "2026-12-04",
+    "priority": 1
+  },
+  {
+    "name": "Налаштувати репозиторій на GitHub",
+    "isComplete": false,
+    "dueDate": "2026-11-30",
+    "priority": 4
+  },
+  {
+    "name": "Зробити резервну копію ноутбука",
+    "isComplete": false,
+    "dueDate": "2026-12-08",
+    "priority": 2
+  },
+  {
+    "name": "Відповісти на листи викладачів",
+    "isComplete": false,
+    "dueDate": "2026-12-22",
+    "priority": 2
+  },
+  {
+    "name": "Підготуватися до модульного контролю",
+    "isComplete": true,
+    "dueDate": "2026-11-12",
+    "priority": 5
+  },
+  {
+    "name": "Вивчити LINQ-запити",
+    "isComplete": false,
+    "dueDate": "2026-12-29",
+    "priority": 2
+  },
+  {
+    "name": "Написати unit-тести для API",
+    "isComplete": false,
+    "dueDate": "2026-11-19",
+    "priority": 1
+  },
+  {
+    "name": "Прибрати в кімнаті",
+    "isComplete": true,
+    "dueDate": "2026-11-03",
+    "priority": 2
+  },
+  {
+    "name": "Сходити в спортзал",
+    "isComplete": false,
+    "dueDate": "2026-11-24",
+    "priority": 2
+  },
+  {
+    "name": "Полити квіти",
+    "isComplete": false,
+    "dueDate": "2026-12-10",
+    "priority": 3
+  },
+  {
+    "name": "Забрати посилку на пошті",
+    "isComplete": false,
+    "dueDate": "2026-11-28",
+    "priority": 5
+  },
+  {
+    "name": "Подзвонити батькам",
+    "isComplete": false,
+    "dueDate": "2026-11-29",
+    "priority": 2
+  },
+  {
+    "name": "Продовжити абонемент у басейн",
+    "isComplete": false,
+    "dueDate": "2026-11-28",
+    "priority": 4
+  },
+  {
+    "name": "Переглянути лекцію з ASP.NET Core",
+    "isComplete": false,
+    "dueDate": "2026-12-11",
+    "priority": 1
+  },
+  {
+    "name": "Розібратися з Entity Framework Core",
+    "isComplete": false,
+    "dueDate": "2026-12-19",
+    "priority": 4
+  },
+  {
+    "name": "Оновити Visual Studio",
+    "isComplete": false,
+    "dueDate": "2026-11-24",
+    "priority": 2
+  },
+  {
+    "name": "Підготувати презентацію з проєкту",
+    "isComplete": false,
+    "dueDate": "2026-12-06",
+    "priority": 1
+  },
+  {
+    "name": "Зустрітися з командою проєкту",
+    "isComplete": false,
+    "dueDate": "2026-12-15",
+    "priority": 3
+  },
+  {
+    "name": "Скласти план на семестр",
+    "isComplete": true,
+    "dueDate": "2026-11-03",
+    "priority": 3
+  },
+  {
+    "name": "Перевірити домашнє завдання",
+    "isComplete": true,
+    "dueDate": "2026-11-11",
+    "priority": 3
+  },
+  {
+    "name": "Вивчити 20 нових англійських слів",
+    "isComplete": false,
+    "dueDate": "2027-01-03",
+    "priority": 3
+  },
+  {
+    "name": "Пройти онлайн-курс з SQL",
+    "isComplete": false,
+    "dueDate": "2026-11-26",
+    "priority": 4
+  },
+  {
+    "name": "Записати відео-демонстрацію роботи",
+    "isComplete": false,
+    "dueDate": "2027-01-02",
+    "priority": 2
+  },
+  {
+    "name": "Здати книги в бібліотеку",
+    "isComplete": true,
+    "dueDate": "2026-11-10",
+    "priority": 1
+  },
+  {
+    "name": "Купити подарунок другу",
+    "isComplete": false,
+    "dueDate": "2026-12-18",
+    "priority": 4
+  },
+  {
+    "name": "Забронювати квитки на потяг",
+    "isComplete": true,
+    "dueDate": "2026-11-05",
+    "priority": 4
+  },
+  {
+    "name": "Оновити антивірус",
+    "isComplete": false,
+    "dueDate": "2026-12-19",
+    "priority": 4
+  },
+  {
+    "name": "Виправити помилки в коді ЛР4",
+    "isComplete": true,
+    "dueDate": "2026-11-04",
+    "priority": 2
+  },
+  {
+    "name": "Зробити merge гілки в main",
+    "isComplete": false,
+    "dueDate": "2026-11-28",
+    "priority": 1
+  },
+  {
+    "name": "Написати документацію до API",
+    "isComplete": false,
+    "dueDate": "2026-12-04",
+    "priority": 4
+  },
+  {
+    "name": "Пройти тест з англійської",
+    "isComplete": false,
+    "dueDate": "2026-12-17",
+    "priority": 5
+  },
+  {
+    "name": "Підготувати питання до консультації",
+    "isComplete": false,
+    "dueDate": "2026-12-18",
+    "priority": 5
+  },
+  {
+    "name": "Замінити батарейки в мишці",
+    "isComplete": false,
+    "dueDate": "2026-12-05",
+    "priority": 4
+  },
+  {
+    "name": "Оформити довідку в деканаті",
+    "isComplete": false,
+    "dueDate": "2026-11-16",
+    "priority": 5
+  },
+  {
+    "name": "Перевірити пошту",
+    "isComplete": false,
+    "dueDate": "2026-12-20",
+    "priority": 3
+  },
+  {
+    "name": "Приготувати обід на два дні",
+    "isComplete": true,
+    "dueDate": "2026-11-07",
+    "priority": 1
+  },
+  {
+    "name": "Вивчити патерн Repository",
+    "isComplete": false,
+    "dueDate": "2026-11-29",
+    "priority": 3
+  },
+  {
+    "name": "Налаштувати Swagger",
+    "isComplete": false,
+    "dueDate": "2027-01-07",
+    "priority": 5
+  },
+  {
+    "name": "Почистити диск C",
+    "isComplete": false,
+    "dueDate": "2026-12-19",
+    "priority": 2
+  },
+  {
+    "name": "Сплатити за інтернет",
+    "isComplete": false,
+    "dueDate": "2026-12-16",
+    "priority": 3
+  },
+  {
+    "name": "Подати заявку на стипендію",
+    "isComplete": false,
+    "dueDate": "2027-01-11",
+    "priority": 1
+  },
+  {
+    "name": "Повторити алгоритми сортування",
+    "isComplete": false,
+    "dueDate": "2026-12-12",
+    "priority": 3
+  },
+  {
+    "name": "Зробити ранкову пробіжку",
+    "isComplete": false,
+    "dueDate": "2026-12-12",
+    "priority": 2
+  },
+  {
+    "name": "Підготувати звіт з лабораторної роботи (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-13",
+    "priority": 2
+  },
+  {
+    "name": "Здати курсову роботу (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-12",
+    "priority": 4
+  },
+  {
+    "name": "Повторити теорію з баз даних (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-23",
+    "priority": 1
+  },
+  {
+    "name": "Оновити резюме (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-13",
+    "priority": 5
+  },
+  {
+    "name": "Купити продукти на тиждень (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2027-01-10",
+    "priority": 4
+  },
+  {
+    "name": "Оплатити комунальні послуги (повтор 2)",
+    "isComplete": true,
+    "dueDate": "2026-11-07",
+    "priority": 5
+  },
+  {
+    "name": "Записатися до стоматолога (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-17",
+    "priority": 3
+  },
+  {
+    "name": "Прочитати розділ з C# (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-31",
+    "priority": 4
+  },
+  {
+    "name": "Налаштувати репозиторій на GitHub (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-21",
+    "priority": 1
+  },
+  {
+    "name": "Зробити резервну копію ноутбука (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-07",
+    "priority": 3
+  },
+  {
+    "name": "Відповісти на листи викладачів (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-29",
+    "priority": 2
+  },
+  {
+    "name": "Підготуватися до модульного контролю (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-19",
+    "priority": 4
+  },
+  {
+    "name": "Вивчити LINQ-запити (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-16",
+    "priority": 2
+  },
+  {
+    "name": "Написати unit-тести для API (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-28",
+    "priority": 3
+  },
+  {
+    "name": "Прибрати в кімнаті (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-22",
+    "priority": 1
+  },
+  {
+    "name": "Сходити в спортзал (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-26",
+    "priority": 3
+  },
+  {
+    "name": "Полити квіти (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-21",
+    "priority": 4
+  },
+  {
+    "name": "Забрати посилку на пошті (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-24",
+    "priority": 5
+  },
+  {
+    "name": "Подзвонити батькам (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-31",
+    "priority": 4
+  },
+  {
+    "name": "Продовжити абонемент у басейн (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-13",
+    "priority": 4
+  },
+  {
+    "name": "Переглянути лекцію з ASP.NET Core (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-08",
+    "priority": 3
+  },
+  {
+    "name": "Розібратися з Entity Framework Core (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2027-01-02",
+    "priority": 4
+  },
+  {
+    "name": "Оновити Visual Studio (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-21",
+    "priority": 1
+  },
+  {
+    "name": "Підготувати презентацію з проєкту (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-21",
+    "priority": 5
+  },
+  {
+    "name": "Зустрітися з командою проєкту (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-25",
+    "priority": 4
+  },
+  {
+    "name": "Скласти план на семестр (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-16",
+    "priority": 2
+  },
+  {
+    "name": "Перевірити домашнє завдання (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-14",
+    "priority": 4
+  },
+  {
+    "name": "Вивчити 20 нових англійських слів (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-07",
+    "priority": 5
+  },
+  {
+    "name": "Пройти онлайн-курс з SQL (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2027-01-12",
+    "priority": 5
+  },
+  {
+    "name": "Записати відео-демонстрацію роботи (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-19",
+    "priority": 1
+  },
+  {
+    "name": "Здати книги в бібліотеку (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-18",
+    "priority": 5
+  },
+  {
+    "name": "Купити подарунок другу (повтор 2)",
+    "isComplete": true,
+    "dueDate": "2026-11-07",
+    "priority": 3
+  },
+  {
+    "name": "Забронювати квитки на потяг (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-08",
+    "priority": 4
+  },
+  {
+    "name": "Оновити антивірус (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-06",
+    "priority": 3
+  },
+  {
+    "name": "Виправити помилки в коді ЛР4 (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-16",
+    "priority": 2
+  },
+  {
+    "name": "Зробити merge гілки в main (повтор 2)",
+    "isComplete": true,
+    "dueDate": "2026-11-04",
+    "priority": 3
+  },
+  {
+    "name": "Написати документацію до API (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-14",
+    "priority": 3
+  },
+  {
+    "name": "Пройти тест з англійської (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2027-01-01",
+    "priority": 3
+  },
+  {
+    "name": "Підготувати питання до консультації (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2027-01-06",
+    "priority": 3
+  },
+  {
+    "name": "Замінити батарейки в мишці (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-17",
+    "priority": 3
+  },
+  {
+    "name": "Оформити довідку в деканаті (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-17",
+    "priority": 4
+  },
+  {
+    "name": "Перевірити пошту (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-17",
+    "priority": 2
+  },
+  {
+    "name": "Приготувати обід на два дні (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-30",
+    "priority": 3
+  },
+  {
+    "name": "Вивчити патерн Repository (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-15",
+    "priority": 5
+  },
+  {
+    "name": "Налаштувати Swagger (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-21",
+    "priority": 5
+  },
+  {
+    "name": "Почистити диск C (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-11-24",
+    "priority": 2
+  },
+  {
+    "name": "Сплатити за інтернет (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-19",
+    "priority": 4
+  },
+  {
+    "name": "Подати заявку на стипендію (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-09",
+    "priority": 1
+  },
+  {
+    "name": "Повторити алгоритми сортування (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2026-12-26",
+    "priority": 2
+  },
+  {
+    "name": "Зробити ранкову пробіжку (повтор 2)",
+    "isComplete": false,
+    "dueDate": "2027-01-08",
+    "priority": 4
+  },
+  {
+    "name": "Підготувати звіт з лабораторної роботи (повтор 3)",
+    "isComplete": false,
+    "dueDate": "2026-12-11",
+    "priority": 5
+  },
+  {
+    "name": "Здати курсову роботу (повтор 3)",
+    "isComplete": false,
+    "dueDate": "2027-01-12",
+    "priority": 3
+  },
+  {
+    "name": "Повторити теорію з баз даних (повтор 3)",
+    "isComplete": true,
+    "dueDate": "2026-11-06",
+    "priority": 5
+  },
+  {
+    "name": "Оновити резюме (повтор 3)",
+    "isComplete": false,
+    "dueDate": "2026-12-29",
+    "priority": 5
+  },
+  {
+    "name": "Купити продукти на тиждень (повтор 3)",
+    "isComplete": false,
+    "dueDate": "2026-11-26",
+    "priority": 2
+  }
+]

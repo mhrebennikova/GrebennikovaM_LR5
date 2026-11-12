@@ -1,0 +1,92 @@
+@GrebennikovaM_LR5_HostAddress = https://localhost:7215
+
+### Завдання 1. Отримати всі записи
+GET {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems
+Accept: application/json
+
+### Завдання 1, 2. Створити один запис з новими полями DueDate і Priority
+POST {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems
+Content-Type: application/json
+
+{
+  "name": "Здати лабораторну роботу №5",
+  "isComplete": false,
+  "dueDate": "2026-11-20",
+  "priority": 1
+}
+
+### Завдання 2. Помилка валідації: немає DueDate, Priority поза межами 1..5
+POST {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems
+Content-Type: application/json
+
+{
+  "name": "Некоректний запис",
+  "isComplete": false,
+  "priority": 9
+}
+
+### Завдання 2. Оновити запис з Id = 1 (змінюємо DueDate і Priority)
+PUT {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Здати лабораторну роботу №5",
+  "isComplete": true,
+  "dueDate": "2026-11-18",
+  "priority": 2
+}
+
+### Завдання 2. Отримати запис з Id = 1
+GET {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems/1
+Accept: application/json
+
+### Завдання 5. Масове створення записів
+POST {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems/batch
+Content-Type: application/json
+
+[
+  {
+    "name": "Підготувати звіт з ЛР5",
+    "isComplete": false,
+    "dueDate": "2026-11-19",
+    "priority": 1
+  },
+  {
+    "name": "Зробити скріншоти роботи API",
+    "isComplete": false,
+    "dueDate": "2026-11-18",
+    "priority": 2
+  },
+  {
+    "name": "Завантажити проєкт на GitHub",
+    "isComplete": false,
+    "dueDate": "2026-11-21",
+    "priority": 3
+  }
+]
+
+### Завдання 5. Масове завантаження 105 записів з файлу src/data/todoitems.json
+# HTTP-клієнт Visual Studio не підтримує тіло запиту з файлу, тому цей запит
+# виконується в терміналі PowerShell з папки рішення:
+# Invoke-RestMethod -Method Post -Uri https://localhost:7215/api/TodoItems/batch -ContentType "application/json; charset=utf-8" -InFile .\GrebennikovaM_LR5\src\data\todoitems.json | Format-Table
+
+### Завдання 5. Помилка: порожній масив
+POST {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems/batch
+Content-Type: application/json
+
+[]
+
+### Завдання 4. Пошук за кількома Id
+GET {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems/by-ids?ids=2&ids=3&ids=4
+Accept: application/json
+
+### Завдання 4. Помилка: передано лише один Id
+GET {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems/by-ids?ids=2
+Accept: application/json
+
+### Завдання 4. Записів з такими Id немає
+GET {{GrebennikovaM_LR5_HostAddress}}/api/TodoItems/by-ids?ids=1000&ids=1001
+Accept: application/json
+
+###
